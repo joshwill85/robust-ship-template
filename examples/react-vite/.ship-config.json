@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "react-vite-example",
+    "type": "react",
+    "framework": "vite"
+  },
+  "packageManager": "npm",
+  "commands": {
+    "install": "npm ci",
+    "build": "npm run build",
+    "test": "npm test",
+    "lint": "npm run lint",
+    "format": "npm run format",
+    "typeCheck": "npm run type-check"
+  },
+  "deployment": {
+    "platform": "Vercel",
+    "prodCommand": "vercel --prod --yes",
+    "previewCommand": "vercel --yes"
+  },
+  "quality": {
+    "enforceTypes": true,
+    "enforceLinting": true,
+    "enforceTests": true,
+    "enforceSecurity": true,
+    "enforceBuild": true
+  },
+  "setupVersion": "1.0.0",
+  "setupDate": "2024-01-01T00:00:00Z"
+}

@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "rust-axum-example",
+    "type": "rust",
+    "framework": "rust"
+  },
+  "packageManager": "cargo",
+  "commands": {
+    "install": "cargo fetch",
+    "build": "cargo build --release",
+    "test": "cargo test",
+    "lint": "cargo clippy",
+    "format": "cargo fmt",
+    "typeCheck": "cargo check"
+  },
+  "deployment": {
+    "platform": "Railway",
+    "prodCommand": "railway deploy",
+    "previewCommand": "railway deploy"
+  },
+  "quality": {
+    "enforceTypes": true,
+    "enforceLinting": true,
+    "enforceTests": true,
+    "enforceSecurity": true,
+    "enforceBuild": true
+  },
+  "setupVersion": "1.0.0",
+  "setupDate": "2024-01-01T00:00:00Z"
+}

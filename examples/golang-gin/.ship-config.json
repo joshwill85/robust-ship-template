@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "golang-gin-example",
+    "type": "golang",
+    "framework": "golang"
+  },
+  "packageManager": "go",
+  "commands": {
+    "install": "go mod download",
+    "build": "go build ./...",
+    "test": "go test ./...",
+    "lint": "golangci-lint run",
+    "format": "gofmt -w .",
+    "typeCheck": "go vet ./..."
+  },
+  "deployment": {
+    "platform": "Railway",
+    "prodCommand": "railway deploy",
+    "previewCommand": "railway deploy"
+  },
+  "quality": {
+    "enforceTypes": true,
+    "enforceLinting": true,
+    "enforceTests": true,
+    "enforceSecurity": true,
+    "enforceBuild": true
+  },
+  "setupVersion": "1.0.0",
+  "setupDate": "2024-01-01T00:00:00Z"
+}

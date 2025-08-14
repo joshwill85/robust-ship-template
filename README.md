@@ -23,13 +23,13 @@
 
 ```bash
 # Method 1: Clone this repository
-git clone https://github.com/petpawlooza/robust-ship-template.git
+git clone https://github.com/joshwill85/robust-ship-template.git
 cp -r robust-ship-template/* /path/to/your/project/
 cd /path/to/your/project
 rm -rf robust-ship-template
 
 # Method 2: Direct download
-curl -sSL https://github.com/petpawlooza/robust-ship-template/archive/main.zip -o template.zip
+curl -sSL https://github.com/joshwill85/robust-ship-template/archive/main.zip -o template.zip
 unzip template.zip && cp -r robust-ship-template-main/* /path/to/your/project/
 cd /path/to/your/project
 rm -rf template.zip robust-ship-template-main
@@ -312,6 +312,6 @@ Built for developers who demand quality without compromise.
 
 **⭐ If this template helps your workflow, please star this repository!**
 
-**🐛 Found an issue? [Open an issue](https://github.com/petpawlooza/robust-ship-template/issues)**
+**🐛 Found an issue? [Open an issue](https://github.com/joshwill85/robust-ship-template/issues)**
 
-**💡 Have ideas? [Start a discussion](https://github.com/petpawlooza/robust-ship-template/discussions)**
+**💡 Have ideas? [Start a discussion](https://github.com/joshwill85/robust-ship-template/discussions)**

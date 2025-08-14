@@ -528,7 +528,7 @@ EOF
     echo -e "  ${YELLOW}./ship.sh --help${NC}          - See all options"
     echo ""
     echo -e "${BLUE}Configuration file: ${YELLOW}$CONFIG_FILE${NC}"
-    echo -e "${BLUE}Documentation: ${YELLOW}https://github.com/petpawlooza/robust-ship-template${NC}"
+    echo -e "${BLUE}Documentation: ${YELLOW}https://github.com/joshwill85/robust-ship-template${NC}"
     echo ""
     
     if [ "$(prompt_yes_no "Would you like to run a test ship now?" "n")" = "true" ]; then

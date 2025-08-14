@@ -451,7 +451,7 @@ rm .ship-config.json
 ./setup.sh
 
 # Use template configuration
-curl -sSL https://raw.githubusercontent.com/petpawlooza/robust-ship-template/main/examples/react-vite/.ship-config.json > .ship-config.json
+curl -sSL https://raw.githubusercontent.com/joshwill85/robust-ship-template/main/examples/react-vite/.ship-config.json > .ship-config.json
 
 # Manual minimal configuration
 echo '{
@@ -508,8 +508,8 @@ git log --oneline -5
 
 ### Where to Get Help
 
-1. **GitHub Issues**: [Report bugs and issues](https://github.com/petpawlooza/robust-ship-template/issues)
-2. **Discussions**: [Ask questions and share ideas](https://github.com/petpawlooza/robust-ship-template/discussions)
+1. **GitHub Issues**: [Report bugs and issues](https://github.com/joshwill85/robust-ship-template/issues)
+2. **Discussions**: [Ask questions and share ideas](https://github.com/joshwill85/robust-ship-template/discussions)
 3. **Documentation**: Review all docs in the `/docs` folder
 4. **Examples**: Check `/examples` for working configurations
 

@@ -19,13 +19,13 @@ This guide walks you through setting up the Robust Ship system for any project t
 
 ```bash
 # Method 1: Clone this repository
-git clone https://github.com/petpawlooza/robust-ship-template.git
+git clone https://github.com/joshwill85/robust-ship-template.git
 cp -r robust-ship-template/* /path/to/your/project/
 cd /path/to/your/project
 rm -rf robust-ship-template
 
 # Method 2: Direct download
-curl -sSL https://github.com/petpawlooza/robust-ship-template/archive/main.zip -o template.zip
+curl -sSL https://github.com/joshwill85/robust-ship-template/archive/main.zip -o template.zip
 unzip template.zip && cp -r robust-ship-template-main/* /path/to/your/project/
 cd /path/to/your/project
 rm -rf template.zip robust-ship-template-main
